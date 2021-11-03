@@ -1,0 +1,115 @@
+<p-toast></p-toast>
+
+<div class="card">
+    <p-toolbar styleClass="p-mb-4">
+        <ng-template pTemplate="right">
+            <button pButton pRipple label="Criar novo Profissional" icon="pi pi-plus" class="p-button-success p-mr-2" (click)="openNew()"></button>
+        </ng-template>
+
+        <ng-template pTemplate="left">
+       </ng-template>
+    </p-toolbar>
+
+    <p-table #dt [value]="profissionais" [rows]="10" [paginator]="true" [globalFilterFields]="['name','country.name','representative.name','status']"
+        [(selection)]="selectedProfissionais" [rowHover]="true" dataKey="id"
+        currentPageReportTemplate="Exibindo {first} de {totalRecords}" [showCurrentPageReport]="true">
+        <ng-template pTemplate="caption">
+            <div class="p-d-flex p-ai-center p-jc-between">
+                <span class="p-input-icon-left">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" (input)="pesquisar($event.target)" placeholder="Pesquisar..." />
+                </span>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="header">
+            <tr>
+                <th pSortableColumn="id">ID <p-sortIcon field="id"></p-sortIcon></th>
+                <th pSortableColumn="nome">Nome <p-sortIcon field="nome"></p-sortIcon></th>
+                <th pSortableColumn="endereco">Endereco <p-sortIcon field="endereco"></p-sortIcon></th>
+                <th pSortableColumn="celular">Celular<p-sortIcon field="celular"></p-sortIcon></th>
+                <th></th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-profissional>
+            <tr>
+                <td>{{profissional.id}}</td>
+                <td>{{profissional.nome}}</td>
+                <td>{{profissional.endereco}}</td>
+                <td>{{profissional.celular}}</td>
+                <td>
+                    <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success p-mr-2" (click)="editProfissional(profissional)"></button>
+                    <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-warning" (click)="deleteProfissional(profissional)"></button>
+                </td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="summary">
+            <div class="p-d-flex p-ai-center p-jc-between">
+                Existem no total {{profissionais ? profissionais.length : 0 }} profissionais.
+            </div>
+        </ng-template>
+    </p-table>
+</div>
+
+<p-dialog [(visible)]="profissionalDialog" [style]="{width: '450px'}" header="Cadastro de Profissional" [modal]="true" styleClass="p-fluid">
+    <ng-template pTemplate="content">
+        <div class="p-field">
+          <label for="id">ID</label>
+          <input type="text" pInputText id="id" [(ngModel)]="profissional.id" disabled/>
+        </div>
+        <div class="p-field">
+            <label for="nome">Nome</label>
+            <input type="text" pInputText id="nome" [(ngModel)]="profissional.nome" required autofocus />
+            <small class="p-invalid" *ngIf="submitted && !profissional.nome">Nome é Obrigatório!.</small>
+        </div>
+        <div class="p-field">
+          <label for="endereco">Endereco</label>
+          <input type="text" pInputText id="endereco" [(ngModel)]="profissional.endereco" required autofocus />
+          <small class="p-invalid" *ngIf="submitted && !profissional.endereco">Endereco é Obrigatório!.</small>
+        </div>
+        <div class="p-field">
+          <label for="celular">Celular</label>
+          <input type="text" pInputText id="celular" mask="(00) 00000-0000" [(ngModel)]="profissional.celular" ng-model="phoneNumber" required autofocus />
+          <small class="p-invalid" *ngIf="submitted && !profissional.celular">celular é Obrigatório!.</small>
+        </div>
+        <div class="p-field">
+          <label for="telefone">Telefone</label>
+          <input type="text" pInputText id="telefone" mask="(00) 0000-0000" [(ngModel)]="profissional.telefone" required autofocus />
+          <small class="p-invalid" *ngIf="submitted && !profissional.telefone">Telefone é Obrigatório!.</small>
+        </div>
+        <div class="p-field">
+          <label for="funcao">Função</label>
+          <input type="text" pInputText id="funcao" [(ngModel)]="profissional.funcao" required autofocus />
+          <small class="p-invalid" *ngIf="submitted && !profissional.funcao">funcao é Obrigatório!.</small>
+        </div>
+        <div class="p-field">
+          <label for="telefone">Estabelecimentos:</label>
+
+          <p-dropdown [options]="estabelecimentos" [(ngModel)]="estabelecimentoSelected" optionLabel="name"></p-dropdown>
+
+          <button pButton pRipple label="Adicionar Estabelecimento" icon="pi pi-plus" class="p-button-success p-mr-2" (click)="insereEstabelecimentos()"></button>
+
+          <p-table [value]="estabelecimentSelected" responsiveLayout="scroll">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Codigo</th>
+                    <th>Nome</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-product>
+                <tr>
+                    <td>{{estabelecimentSelected.name}}</td>
+                    <td>{{estabelecimentSelected.code}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+        </div>
+
+    </ng-template>
+
+    <ng-template pTemplate="footer">
+        <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+        <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" (click)="addProfissional()"></button>
+    </ng-template>
+</p-dialog>
+
+<p-confirmDialog [style]="{width: '450px'}"></p-confirmDialog>

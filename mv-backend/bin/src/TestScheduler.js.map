@@ -1,0 +1,221 @@
+s-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ConfigCI-Onecore-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ConfigCI-Onecore-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ConfigCI-Onecore-WOW64-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ConfigCI-Onecore-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ConfigCI-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ConfigCI-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update description="Microsoft-Windows-DeviceGuard-GPEXT-Package Language Pack for cs-CZ" displayName="Microsoft-Windows-DeviceGuard-GPEXT-Package Language Pack" name="Microsoft-Windows-DeviceGuard-GPEXT-LanguagePack-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DeviceGuard-GPEXT-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update description="Microsoft-Windows-win32calc-Package Language Pack for cs-CZ" displayName="Microsoft-Windows-win32calc-Package Language Pack" name="Microsoft-Windows-win32calc-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-win32calc-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update description="Microsoft Windows DataCenterBridging Language pack for cs-CZ" displayName="Microsoft Windows DataCenterBridging Language Pack" name="Microsoft-Windows-DataCenterBridging-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DataCenterBridging-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-AppManagement-UEV-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-AppManagement-UEV-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-AppManagement-UEV-WOW64-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-AppManagement-UEV-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Client-License-Platform-Upgrade-Subscription-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Client-License-Platform-Upgrade-Subscription-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-AppManagement-AppV-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-AppManagement-AppV-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-AppManagement-AppV-WOW64-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-AppManagement-AppV-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update description="Microsoft Secure Assessment Language Pack for cs-CZ" displayName="Microsoft Secure Assessment" name="Microsoft-Windows-Management-SecureAssessment-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Management-SecureAssessment-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Update-Ux-Desktop-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Update-Ux-Desktop-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update description="Windows Update Settings Page Language Pack for cs-CZ" displayName="Windows Update Settings Page" name="Microsoft-OneCore-Update-Ux-Core-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Update-Ux-Core-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update description="Windows Defender Advanced Threat Protection Language Pack for cs-CZ" displayName="Windows Defender Advanced Threat Protection" name="Microsoft-Windows-SenseClient-Package">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SenseClient-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionPack-Starter-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionPack-Starter-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionPack-Core-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionPack-Core-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionPack-Core-WOW64-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionPack-Core-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionPack-Professional-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionPack-Professional-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionPack-Professional-WOW64-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionPack-Professional-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionPack-PPIPro-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionPack-PPIPro-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionPack-PPIPro-WOW64-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionPack-PPIPro-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-RegulatedPackages-PPIPro-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-RegulatedPackages-PPIPro-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-RegulatedPackages-PPIPro-WOW64-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-RegulatedPackages-PPIPro-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-RegulatedPackages-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-RegulatedPackages-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-RegulatedPackages-WOW64-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-RegulatedPackages-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Common-RegulatedPackages-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Common-RegulatedPackages-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Common-RegulatedPackages-WOW64-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Common-RegulatedPackages-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Not-Supported-On-LTSB-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Not-Supported-On-LTSB-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package-LanguagePack">
+      <package contained="true" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-Core-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-Core-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-CoreCountrySpecific-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-CoreCountrySpecific-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-CoreN-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-CoreN-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseEval-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseEval-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseG-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseG-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseGN-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseGN-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseNEval-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseNEval-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseS-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseS-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseS-WOW64-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseS-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseSEval-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseSEval-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseSEval-WOW64-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseSEval-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseSN-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseSN-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseSN-WOW64-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseSN-WOW64-Package" version="10.0.22483.1000" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EditionSpecific-EnterpriseSNEval-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EditionSpecific-EnterpriseSNEval-Package" version="10.0.22483.1000" processorArchitecture="amd64" language

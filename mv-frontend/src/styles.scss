@@ -1,0 +1,21 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #181818 !important;
+}
+
+.p-tabview.p-component{
+  width: 90%;
+  margin-top:3em;
+  border-radius: 50px;
+}
+
+.p-tabview-nav-content{
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.p-tabview .p-tabview-panels{
+  border-bottom-right-radius: 1em !important;
+  border-bottom-left-radius: 1em !important;
+}
